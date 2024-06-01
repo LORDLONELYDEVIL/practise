@@ -1,0 +1,24 @@
+Practisce Queries
+//select * from github_events where actor_login='PritamChk' order by file_time asc limit 10 
+//select * from hackernews
+//select * from hackernews where deleted=1
+//select type,count(dead) from hackernews group by type
+//select count(by),dead from hackernews group by dead
+//select * from hackernews
+//select * from hackernews where by like 'V%'
+//select * from hackernews where type='story'
+//show tables
+//select * from actors
+//select * from actors where name='' and company='' and blog='' and location='' and email='' and bio='' and twitter_username !=''
+//select max(updated_at) as lst from actors 
+//select * from recipes where title like '%noodles%'
+//select * from menu where event='DINNER'
+//select * from dish where name like '%fish%' limit 10
+//argMax(domain,a), from dns
+//select anyLast(a) from dns
+//select * from dns where domain='bry2bhe.eastus.cloudapp.azure.com'
+//select quantile(0.97)(followers) from actors
+//select quantile(0.99)(cumulative_confirmed) from covid
+//select max(cumulative_confirmed) from covid
+//select round(latitude_1,2) from opensky
+//select * from dns left any join dns2 on dns.timestamp=dns2.timestamp
