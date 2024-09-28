@@ -1,16 +1,4 @@
-// var atatus = require("atatus-nodejs");
 
-// atatus.start({
-//     licenseKey: "lic_apm_86d30973c86d43d5bd05098130700e7f",
-//     appName: "nodeApp",
-//     enabled:true,
-//     notifyHost:"10.40.30.105",
-//     notifyPort:"8091",
-//     useSSL:false,
-//     analytics:true,
-//     analyticsCaptureOutgoing: true,
-//     logBody: 'all',    
-// });
 const nsq=require('nsqjs');
 const express=require("express");
 const authR=require("./routes/authRoute.js")
